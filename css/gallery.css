@@ -1,0 +1,14 @@
+.gallery{
+    display: flex;
+    border: 5px green;
+}
+main{
+    margin: 80px;
+}
+.gallery div{
+    padding: 1.5625rem;
+    border: 1px;
+}
+img{
+    border-radius: 10%;
+}

@@ -1,0 +1,26 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+#form{
+    border: 3px solid white;
+    border-radius: 1.5625rem;
+    background-color: white;
+    width:400px
+    text-align: center;
+    padding: 25px;
+}
+ 
+#name, #email, #pword{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#bton{
+   align-content: center;
+}
