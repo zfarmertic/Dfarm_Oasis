@@ -1,0 +1,40 @@
+.main_container{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+.images img{
+    border-radius: 80%;
+}
+.work div{
+    
+    border-radius: 500px;
+    margin: 40px;
+}
+.work img{
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+}
+.work{
+    display: flex;
+    justify-content: space-between;
+}
+.workt{
+    font-size: 20px;
+    margin-top: 50px;
+}
+main a{
+    font-size: 30px;
+    text-decoration: none;
+    color: green;
+    align-content: center;
+}
+.main_container a{
+    font-size: 20px;
+    margin-top: 10px;
+}

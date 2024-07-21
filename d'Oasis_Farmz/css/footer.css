@@ -1,0 +1,35 @@
+footer{
+    background-color: rgb(251, 246, 246);
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+  }
+
+footer img{
+    height: 10%;
+    width: 10%;
+    border-radius: 80%;
+    padding: 1.25rem;
+  }
+
+  i{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 50%
+
+  }
+
+  footer button{
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color:transparent; /* Primary button color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }

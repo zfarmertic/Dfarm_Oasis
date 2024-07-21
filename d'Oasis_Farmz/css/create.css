@@ -1,0 +1,26 @@
+#container{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+#form{
+    border: 3px solid white;
+    border-radius: 1.5625rem;
+    background-color: rgb(244, 237, 237);
+    width:400px
+    text-align: center;
+    padding: 25px;
+}
+ 
+#name, #email, #pword{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#bton{
+   align-content: center;
+}

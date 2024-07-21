@@ -1,0 +1,55 @@
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+main p{
+    font-size: 25px;
+}
+body{
+    background-color: rgb(250, 243, 243)
+}
+/* Example CSS for form alignment */
+#main_two {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(235, 223, 223);
+}
+
+form {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
